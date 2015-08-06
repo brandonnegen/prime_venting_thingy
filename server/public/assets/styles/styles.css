@@ -1,6 +1,11 @@
 body {
     text-align: center;
 }
+.button-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 button {
     -moz-box-shadow: 3px 4px 0px 0px #899599;
     -webkit-box-shadow: 3px 4px 0px 0px #899599;

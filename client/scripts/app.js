@@ -58,10 +58,6 @@ function getRandomValue(array){
 }
 
 function appendWords(){
-    getRandomValue(adjOneArray);
-    getRandomValue(adjTwoArray);
-    getRandomValue(nounArray);
-    console.log(nounArray);
     $('#program-description').append('<p>' + adjOneArray[getRandomValue(adjOneArray)] + " " + adjTwoArray[getRandomValue(adjTwoArray)] + " " + nounArray[getRandomValue(nounArray)] + '</p>');
 }
 
